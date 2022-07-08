@@ -1,0 +1,38 @@
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+   
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+}
+.muv-cbd img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 560px;
+    
+}
+.text-content {
+    padding: 20px 160px 110px 165px;
+}
+.footer-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-area img{
+   width: 190px;
+   height: 45px;
+}
+@media screen and (max-width:768px) {
+    img{
+        max-width: 100%;
+    }
+    .text-content {
+        padding: 20px 60px 110px 60px;
+    }
+}
